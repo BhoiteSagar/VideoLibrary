@@ -1,0 +1,364 @@
+2015-12-25 09:27:24 Error: [BadMethodCallException] Unknown finder method "tagged"
+Request URL: /videos/tagged
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\ORM\Table.php(937): Cake\ORM\Table->callFinder('tagged', Object(Cake\ORM\Query), Array)
+#1 C:\wamp\www\videoLibrary\src\Controller\VideosController.php(117): Cake\ORM\Table->find('tagged', Array)
+#2 [internal function]: App\Controller\VideosController->tags()
+#3 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\VideosController))
+#6 C:\wamp\www\videoLibrary\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-12-25 09:29:18 Error: [Cake\View\Exception\MissingTemplateException] Template file "Videos\tags.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Videos\\tags.ctp',
+)
+Request URL: /videos/tagged
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName(NULL)
+#1 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\VideosController))
+#4 C:\wamp\www\videoLibrary\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-12-25 09:30:49 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\videoLibrary\src\Template\Videos\tags.ctp, line 7]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+include - APP/Template\Videos\tags.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 984
+Cake\View\View::_render() - CORE\src\View\View.php, line 944
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-25 09:30:57 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\videoLibrary\src\Template\Videos\tags.ctp, line 7]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+include - APP/Template\Videos\tags.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 984
+Cake\View\View::_render() - CORE\src\View\View.php, line 944
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-25 10:00:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Home could not be found.
+Exception Attributes: array (
+  'class' => 'Home',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /home
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-25 10:01:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Library could not be found.
+Exception Attributes: array (
+  'class' => 'Library',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /library
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-25 10:06:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Library could not be found.
+Exception Attributes: array (
+  'class' => 'Library',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /library
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-25 10:11:46 Error: [Cake\View\Exception\MissingTemplateException] Template file "Videos\library.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Videos\\library.ctp',
+)
+Request URL: /library
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName(NULL)
+#1 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\VideosController))
+#4 C:\wamp\www\videoLibrary\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-12-25 10:17:53 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\Query.php, line 1758]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-25 10:17:54 Error: [Cake\Error\FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+Request URL: /library
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Maximum functio...', 'C:\\wamp\\www\\vid...', 1758)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-25 10:19:26 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\Query.php, line 1758]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-25 10:19:27 Error: [Cake\Error\FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+Request URL: /library
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Maximum functio...', 'C:\\wamp\\www\\vid...', 1758)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-25 10:21:39 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\Query.php, line 142]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-25 10:21:40 Error: [Cake\Error\FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+Request URL: /videos
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Maximum functio...', 'C:\\wamp\\www\\vid...', 142)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-25 10:21:58 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\Query.php, line 1758]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-25 10:21:59 Error: [Cake\Error\FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+Request URL: /videos/tagged/War
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Maximum functio...', 'C:\\wamp\\www\\vid...', 1758)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-25 10:22:23 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\Query.php, line 1758]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-25 10:22:24 Error: [Cake\Error\FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+Request URL: /videos/tagged/War
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Maximum functio...', 'C:\\wamp\\www\\vid...', 1758)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-25 10:22:42 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\Query.php, line 1758]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-25 10:22:43 Error: [Cake\Error\FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+Request URL: /videos/tagged/War
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Maximum functio...', 'C:\\wamp\\www\\vid...', 1758)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-25 10:25:21 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/ttps://www.youtube.com/embed/Oijdb-a9GKY%3C/p%3E" could not be found.
+Exception Attributes: array (
+  'url' => '/ttps://www.youtube.com/embed/Oijdb-a9GKY%3C/p%3E',
+)
+Request URL: /ttps://www.youtube.com/embed/Oijdb-a9GKY%3C/p%3E
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Router.php(338): Cake\Routing\RouteCollection->parse('/ttps://www.you...')
+#1 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Filter\RoutingFilter.php(53): Cake\Routing\Router::parse('ttps://www.yout...')
+#2 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Event\EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 C:\wamp\www\videoLibrary\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-25 10:50:28 Error: [Cake\Controller\Exception\MissingActionException] Action TagsController::all() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'TagsController',
+  'action' => 'all',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /tags/all
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TagsController))
+#2 C:\wamp\www\videoLibrary\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-25 10:50:35 Error: [Cake\Controller\Exception\MissingActionException] Action TagsController::all() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'TagsController',
+  'action' => 'all',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /tags/All
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TagsController))
+#2 C:\wamp\www\videoLibrary\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-25 10:50:45 Error: [Cake\Controller\Exception\MissingActionException] Action TagsController::all() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'TagsController',
+  'action' => 'all',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /tags/all
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TagsController))
+#2 C:\wamp\www\videoLibrary\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-25 11:18:08 Error: [Cake\Database\Exception] Impossible to generate condition with empty list of values for field (Tags.title)
+Request URL: /videos/tagged/
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\Expression\Comparison.php(133): Cake\Database\Expression\Comparison->_stringExpression(Object(Cake\Database\ValueBinder))
+#1 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\Expression\QueryExpression.php(417): Cake\Database\Expression\Comparison->sql(Object(Cake\Database\ValueBinder))
+#2 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\QueryCompiler.php(219): Cake\Database\Expression\QueryExpression->sql(Object(Cake\Database\ValueBinder))
+#3 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\QueryCompiler.php(125): Cake\Database\QueryCompiler->_buildJoinPart(Array, Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#4 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\Query.php(232): Cake\Database\QueryCompiler->Cake\Database\{closure}(Array, 'join')
+#5 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\QueryCompiler.php(99): Cake\Database\Query->traverse(Object(Closure), Array)
+#6 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\Driver.php(321): Cake\Database\QueryCompiler->compile(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#7 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\Connection.php(256): Cake\Database\Driver->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#8 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\Query.php(203): Cake\Database\Connection->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#9 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\ORM\Query.php(860): Cake\Database\Query->sql(NULL)
+#10 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(121): Cake\ORM\Query->sql()
+#11 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\Connection.php(216): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#12 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\Connection.php(268): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#13 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#14 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\ORM\Query.php(878): Cake\Database\Query->execute()
+#15 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(272): Cake\ORM\Query->_execute()
+#16 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\ORM\Query.php(829): Cake\ORM\Query->_all()
+#17 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(131): Cake\ORM\Query->all()
+#18 C:\wamp\www\videoLibrary\src\Template\Videos\tags.ctp(8): Cake\ORM\Query->getIterator()
+#19 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\View\View.php(984): include('C:\\wamp\\www\\vid...')
+#20 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\View\View.php(944): Cake\View\View->_evaluate('C:\\wamp\\www\\vid...', Array)
+#21 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\View\View.php(579): Cake\View\View->_render('C:\\wamp\\www\\vid...')
+#22 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#23 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#24 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\VideosController))
+#25 C:\wamp\www\videoLibrary\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#26 {main}
+
+
+2015-12-25 11:20:20 Warning: Warning (4096): Argument 1 passed to Cake\Utility\Text::toList() must be of the type array, string given, called in C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\View\Helper\TextHelper.php on line 367 and defined in [C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Utility\Text.php, line 721]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+Cake\Utility\Text::toList() - CORE\src\Utility\Text.php, line 721
+Cake\View\Helper\TextHelper::toList() - CORE\src\View\Helper\TextHelper.php, line 367
+include - APP/Template\Videos\tags.ctp, line 1
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 984
+Cake\View\View::_render() - CORE\src\View\View.php, line 944
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-25 11:20:20 Warning: Warning (2): array_pop() expects parameter 1 to be array, string given in [C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Utility\Text.php, line 730]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+array_pop - [internal], line ??
+Cake\Utility\Text::toList() - CORE\src\Utility\Text.php, line 730
+Cake\View\Helper\TextHelper::toList() - CORE\src\View\Helper\TextHelper.php, line 367
+include - APP/Template\Videos\tags.ctp, line 1
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 984
+Cake\View\View::_render() - CORE\src\View\View.php, line 944
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-25 11:20:20 Warning: Warning (4096): Argument 1 passed to Cake\Utility\Text::toList() must be of the type array, string given, called in C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\View\Helper\TextHelper.php on line 367 and defined in [C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Utility\Text.php, line 721]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+Cake\Utility\Text::toList() - CORE\src\Utility\Text.php, line 721
+Cake\View\Helper\TextHelper::toList() - CORE\src\View\Helper\TextHelper.php, line 367
+include - APP/Template\Videos\tags.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 984
+Cake\View\View::_render() - CORE\src\View\View.php, line 944
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-25 11:20:21 Warning: Warning (2): array_pop() expects parameter 1 to be array, string given in [C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Utility\Text.php, line 730]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+array_pop - [internal], line ??
+Cake\Utility\Text::toList() - CORE\src\Utility\Text.php, line 730
+Cake\View\Helper\TextHelper::toList() - CORE\src\View\Helper\TextHelper.php, line 367
+include - APP/Template\Videos\tags.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 984
+Cake\View\View::_render() - CORE\src\View\View.php, line 944
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+

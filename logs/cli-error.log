@@ -1,0 +1,96 @@
+2015-12-25 08:24:32 Error: [Cake\Console\Exception\MissingShellException] Shell class for "All" could not be found.
+Exception Attributes: array (
+  'class' => 'All',
+)
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('all')
+#1 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\wamp\www\videoLibrary\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-12-25 08:24:55 Error: [Cake\Console\Exception\MissingShellException] Shell class for "All" could not be found.
+Exception Attributes: array (
+  'class' => 'All',
+)
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('all')
+#1 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\wamp\www\videoLibrary\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-12-25 08:34:39 Error: [Cake\Console\Exception\MissingShellException] Shell class for "All" could not be found.
+Exception Attributes: array (
+  'class' => 'All',
+)
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('all')
+#1 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\wamp\www\videoLibrary\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-12-25 08:38:37 Error: [Cake\Console\Exception\MissingShellException] Shell class for "All" could not be found.
+Exception Attributes: array (
+  'class' => 'All',
+)
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('all')
+#1 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\wamp\www\videoLibrary\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-12-25 08:45:08 Error: [Cake\Console\Exception\MissingShellException] Shell class for "All" could not be found.
+Exception Attributes: array (
+  'class' => 'All',
+)
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('all')
+#1 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\wamp\www\videoLibrary\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-12-25 08:46:02 Error: [Cake\Console\Exception\MissingShellException] Shell class for "All" could not be found.
+Exception Attributes: array (
+  'class' => 'All',
+)
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('all')
+#1 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\wamp\www\videoLibrary\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-12-25 08:46:29 Error: [Cake\Console\Exception\MissingShellException] Shell class for "All" could not be found.
+Exception Attributes: array (
+  'class' => 'All',
+)
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('all')
+#1 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\wamp\www\videoLibrary\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-12-25 12:49:40 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Sever" could not be found.
+Exception Attributes: array (
+  'class' => 'Sever',
+)
+Stack Trace:
+#0 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('sever')
+#1 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\wamp\www\videoLibrary\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\wamp\www\videoLibrary\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
